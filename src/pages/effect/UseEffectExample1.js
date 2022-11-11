@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 import Placeholder from "react-bootstrap/Placeholder";
 import axios from "axios";
 
+// 없어도 됨
 const sleep = (sec) => {
   return new Promise((resolve) => setTimeout(resolve, sec * 1000));
 };
